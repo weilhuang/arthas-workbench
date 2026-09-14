@@ -48,6 +48,16 @@ public class JifaWebRuntimeServiceTest {
     }
 
     @Test
+    public void defaultHelperDownloadUrlPointsAtCanonicalLatestReleaseAsset() throws Exception {
+        Field field = JifaWebRuntimeService.class.getDeclaredField("DEFAULT_HELPER_DOWNLOAD_URL");
+        field.setAccessible(true);
+
+        assertEquals(
+                "https://github.com/weilhuang/arthas-workbench/releases/latest/download/arthas-jifa-server-helper.jar",
+                field.get(null));
+    }
+
+    @Test
     public void discoverArthasOutputDirectoriesFindsRootAndNestedDirectoriesWithinDepth() throws IOException {
         Path projectRoot = temporaryFolder.newFolder("demo-project").toPath();
         Path direct = Files.createDirectories(projectRoot.resolve("arthas-output"));

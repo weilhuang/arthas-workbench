@@ -65,7 +65,7 @@ public final class JifaWebRuntimeService implements Disposable {
     private static final String HELPER_URL_PROPERTY = "arthas.workbench.jifa.helper.url";
     private static final String HELPER_VERSION_PROPERTY = "arthas.workbench.jifa.helper.version";
     private static final String DEFAULT_HELPER_DOWNLOAD_URL =
-            "https://github.com/wl2027/arthas-workbench/releases/latest/download/" + HELPER_JAR_NAME;
+            "https://github.com/weilhuang/arthas-workbench/releases/latest/download/" + HELPER_JAR_NAME;
     private static final int SOURCE_SCAN_DEPTH = 4;
     private static final int FILE_LIST_PAGE_SIZE = 500;
     private static final Duration HTTP_TIMEOUT = Duration.ofSeconds(10);

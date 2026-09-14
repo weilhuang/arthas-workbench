@@ -11,7 +11,7 @@
 <div align="center">
 
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/com.github.wl2027.arthasworkbench.svg)](https://plugins.jetbrains.com/plugin/30843-arthas-workbench)
-![Downloads](https://img.shields.io/github/release/wl2027/arthas-workbench.svg)
+![Release](https://img.shields.io/github/v/release/weilhuang/arthas-workbench.svg)
 
 ![License](https://img.shields.io/badge/license-Apache%202.0-1677ff)
 ![IDEA](https://img.shields.io/badge/IDEA-2025.1%2B-0a7cff)
@@ -41,7 +41,7 @@ Key features:
 - Manage Terminal and Log views for multiple sessions in dedicated tool windows.
 - Open the Arthas Web UI and copy a stable MCP Gateway configuration from the IDE.
 
-Detailed operation documents: [https://github.com/wl2027/arthas-workbench](https://github.com/wl2027/arthas-workbench)
+Detailed operation documents: [https://github.com/weilhuang/arthas-workbench](https://github.com/weilhuang/arthas-workbench)
 
 ## 中文:
 
@@ -56,7 +56,7 @@ Arthas Workbench 是一个面向本地 Arthas 工作流的 IntelliJ IDEA 插件�
 - 在独立工具窗口中管理多会话的 Terminal / Log。
 - 直接打开 Arthas Web UI，并一键复制稳定的 MCP Gateway 配置。
 
-详细操作文档: [https://github.com/wl2027/arthas-workbench](https://github.com/wl2027/arthas-workbench)
+详细操作文档: [https://github.com/weilhuang/arthas-workbench](https://github.com/weilhuang/arthas-workbench)
 
 <!-- Plugin description end -->
 
@@ -64,8 +64,8 @@ Arthas Workbench 是一个面向本地 Arthas 工作流的 IntelliJ IDEA 插件�
 
 Arthas Workbench 是一个独立维护的 IntelliJ IDEA 插件开源项目，目标是把本地 JVM 调试、Arthas Attach、终端会话、日志查看、Jifa 分析和 MCP 接入收敛到一个更顺手的 IDE 工作流里。
 
-- 仓库地址：[wl2027/arthas-workbench](https://github.com/wl2027/arthas-workbench)
-- 当前版本：`0.0.6`
+- 仓库地址：[weilhuang/arthas-workbench](https://github.com/weilhuang/arthas-workbench)
+- 当前版本：`0.0.8`
 - 项目状态：`Alpha / 可用但持续演进`
 - 目标平台：`IntelliJ IDEA Community 2025.1+`
 - 开源协议：[`Apache-2.0`](LICENSE)
@@ -89,7 +89,7 @@ Arthas Workbench 是一个独立维护的 IntelliJ IDEA 插件开源项目，目
 
 ### 方式一：使用 GitHub Releases
 
-从 [Releases](https://github.com/wl2027/arthas-workbench/releases/latest) 下载最新插件包后，在 IDEA 中执行：
+从 [Releases](https://github.com/weilhuang/arthas-workbench/releases/latest) 下载最新插件包后，在 IDEA 中执行：
 
 `Settings/Preferences` -> `Plugins` -> `⚙` -> `Install Plugin from Disk...`
 
@@ -230,16 +230,16 @@ cd jifa
 
 5. 与它一同上传插件包：
 
-- `build/distributions/arthas-workbench-0.0.6.zip`
+- `build/distributions/arthas-workbench-0.0.8.zip`
 - `arthas-jifa-server-helper.jar`
 
 6. 上传位置：
 
-[wl2027/arthas-workbench Releases](https://github.com/wl2027/arthas-workbench/releases)
+[weilhuang/arthas-workbench Releases](https://github.com/weilhuang/arthas-workbench/releases)
 
 插件默认下载地址固定为：
 
-`https://github.com/wl2027/arthas-workbench/releases/latest/download/arthas-jifa-server-helper.jar`
+`https://github.com/weilhuang/arthas-workbench/releases/latest/download/arthas-jifa-server-helper.jar`
 
 因此 latest release 中必须存在这个同名资产，自动下载才能直接生效。
 

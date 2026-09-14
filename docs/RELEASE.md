@@ -59,11 +59,11 @@ cd jifa
 
 5. 与插件包一起上传到：
 
-[wl2027/arthas-workbench Releases](https://github.com/wl2027/arthas-workbench/releases)
+[weilhuang/arthas-workbench Releases](https://github.com/weilhuang/arthas-workbench/releases)
 
 插件默认下载地址固定为：
 
-`https://github.com/wl2027/arthas-workbench/releases/latest/download/arthas-jifa-server-helper.jar`
+`https://github.com/weilhuang/arthas-workbench/releases/latest/download/arthas-jifa-server-helper.jar`
 
 因此 latest release 中必须存在这个同名资产。
 

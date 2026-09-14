@@ -29,13 +29,11 @@ IDEA 内嵌 JFR/Jifa 分析入口已经下线，所有文件统一走浏览器�
 
 ## helper 解析优先级
 
-插件在真正打开 Jifa 分析页时才解析 helper jar，优先级如下：
+插件在真正打开 Jifa 分析页时才解析 helper jar。插件 zip **不再内置** helper；运行时优先级如下：
 
-1. JVM 参数 `-Darthas.workbench.jifa.helper.path=...`
-2. Settings 中配置的 `Offline Helper Path`
-3. 插件目录 `lib/arthas-jifa-server-helper.jar`
-4. 工作区中手工构建出来的 `jifa/server/build/libs/jifa.jar`
-5. 自动下载并缓存到 `~/.arthas-workbench-plugin/jifa/runtime/<version>/arthas-jifa-server-helper.jar`
+1. JVM 参数 `-Darthas.workbench.jifa.helper.path=...`，或 Settings 中配置的 `Offline Helper Path`
+2. 工作区中手工构建出来的 `jifa/server/build/libs/jifa.jar`
+3. 自动下载并缓存到 `~/.arthas-workbench-plugin/jifa/runtime/<version>/arthas-jifa-server-helper.jar`
 
 其中离线路径支持两种形式：
 
@@ -116,7 +114,7 @@ cd jifa
 
 5. 插件默认下载地址为：
 
-`https://github.com/wl2027/arthas-workbench/releases/latest/download/arthas-jifa-server-helper.jar`
+`https://github.com/weilhuang/arthas-workbench/releases/latest/download/arthas-jifa-server-helper.jar`
 
 因此 latest release 中需要存在这个同名资产。
 
