@@ -61,7 +61,6 @@ body:
       label: AttachStrategy
       options:
         - Arthas Boot
-        - jattach
         - 未确认
   - type: textarea
     id: logs

@@ -21,7 +21,7 @@
 ## 常用命令
 
 ```bash
-cd idea-plugin/arthas-workbench
+cd /path/to/arthas-workbench
 ./gradlew spotlessApply
 ./gradlew test
 ./gradlew buildPlugin -x buildSearchableOptions -x jarSearchableOptions

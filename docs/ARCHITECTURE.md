@@ -258,6 +258,16 @@ flowchart TD
 8. 进程退出或主动 `关闭 Arthas` 后，会话进入 `STOPPED`。
 9. 停止后的 tab 允许手动关闭。
 
+## 身份与命名约定
+
+公开仓库与维护者身份是 `weilhuang`，但以下标识刻意保持不变：
+
+- Marketplace 插件 ID 仍为 `com.github.wl2027.arthasworkbench`。JetBrains Marketplace 插件 [30843](https://plugins.jetbrains.com/plugin/30843-arthas-workbench) 的升级连续性依赖该 ID，不能随仓库改名一起改。
+- Java 包名仍为 `com.alibaba.arthas.idea.workbench.*`，保留历史包结构。
+- Gradle `pluginGroup` 与插件 ID 保持一致，仍为 `com.github.wl2027.arthasworkbench`。
+
+用户可见的仓库地址、vendor、文档链接、badge 和 Jifa helper 默认下载地址应指向 `https://github.com/weilhuang/arthas-workbench`。旧账号 `wl2027` 目前会 301 到该仓库，但文档与运行时默认值使用规范地址，不再依赖这次跳转。
+
 ## 当前实现边界
 
 - Web UI 为默认浏览器打开，不内嵌到插件。
