@@ -3,8 +3,11 @@
 # arthas-workbench Changelog
 
 ## [Unreleased]
+
+## [0.0.9] - 2026-09-14
 ### Changed
-- 将公开仓库、vendor、文档链接和 Jifa helper 默认下载地址对齐到 `weilhuang/arthas-workbench` 与当前版本 `0.0.8`；Marketplace 插件 ID `com.github.wl2027.arthasworkbench` 与 Java 包名 `com.alibaba.arthas.idea.workbench.*` 保持不变，以确保插件 30843 可继续升级
+- 将公开仓库、vendor、文档链接和 Jifa helper 默认下载地址对齐到 `weilhuang/arthas-workbench`。Marketplace 插件 ID `com.github.wl2027.arthasworkbench` 与 Java 包名 `com.alibaba.arthas.idea.workbench.*` 保持不变，以确保插件 30843 可继续升级。
+- README 品牌 logo 从蓝色改回原始 motif 的黑/白 `<picture>` 方案：浅色 `#1f2328`、深色 `#e6edf3`，fallback SVG 也不再使用品牌蓝。
 
 ## [0.0.8] - 2026-06-07
 ### Fixed

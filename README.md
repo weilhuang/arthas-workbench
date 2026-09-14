@@ -5,7 +5,11 @@
 </div>
 
 <div align="center">
-  <img src="docs/assets/logo-readme.svg" alt="Arthas Workbench 插件图标预览" width="128" height="128" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-readme-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/assets/logo-readme-light.svg">
+    <img src="docs/assets/logo-readme.svg" alt="Arthas Workbench 插件图标预览" width="128" height="128">
+  </picture>
 </div>
 
 <div align="center">
@@ -65,7 +69,7 @@ Arthas Workbench 是一个面向本地 Arthas 工作流的 IntelliJ IDEA 插件�
 Arthas Workbench 是一个独立维护的 IntelliJ IDEA 插件开源项目，目标是把本地 JVM 调试、Arthas Attach、终端会话、日志查看、Jifa 分析和 MCP 接入收敛到一个更顺手的 IDE 工作流里。
 
 - 仓库地址：[weilhuang/arthas-workbench](https://github.com/weilhuang/arthas-workbench)
-- 当前版本：`0.0.8`
+- 当前版本：`0.0.9`
 - 项目状态：`Alpha / 可用但持续演进`
 - 目标平台：`IntelliJ IDEA Community 2025.1+`
 - 开源协议：[`Apache-2.0`](LICENSE)
@@ -230,7 +234,7 @@ cd jifa
 
 5. 与它一同上传插件包：
 
-- `build/distributions/arthas-workbench-0.0.8.zip`
+- `build/distributions/arthas-workbench-0.0.9.zip`
 - `arthas-jifa-server-helper.jar`
 
 6. 上传位置：
