@@ -2,19 +2,28 @@
   <title>Arthas Workbench</title>
   <!--
     README logo derived from src/main/resources/icons/original/arthasWorkbenchDiagnosticWave_128x128.svg.
-    Presentation-attribute blue remains visible if CSS is stripped.
-    prefers-color-scheme switches to near-black / near-white line art on GitHub and other viewers.
+    Brand blue stays visible on both GitHub light and dark canvases, including when
+    GitHub appearance is set independently of the OS prefers-color-scheme.
+    CSS only tints within that same mid-contrast family; presentation attributes
+    remain #1677ff if style is stripped.
   -->
   <style>
     :root { color-scheme: light dark; }
-    .stroke { stroke: #1f2328; }
-    .fill { fill: #1f2328; }
+    .pane { fill: #1677ff; fill-opacity: 0.12; stroke: #1677ff; }
+    .stroke { stroke: #1677ff; }
+    .fill { fill: #1677ff; }
+    @media (prefers-color-scheme: light) {
+      .pane { fill: #0a66d1; fill-opacity: 0.08; stroke: #0a66d1; }
+      .stroke { stroke: #0a66d1; }
+      .fill { fill: #0a66d1; }
+    }
     @media (prefers-color-scheme: dark) {
-      .stroke { stroke: #e6edf3; }
-      .fill { fill: #e6edf3; }
+      .pane { fill: #58a6ff; fill-opacity: 0.16; stroke: #58a6ff; }
+      .stroke { stroke: #58a6ff; }
+      .fill { fill: #58a6ff; }
     }
   </style>
-  <rect class="stroke" x="16" y="18" width="96" height="92" rx="15" stroke="#1677ff" stroke-width="7"/>
+  <rect class="pane" x="16" y="18" width="96" height="92" rx="15" fill="#1677ff" fill-opacity="0.12" stroke="#1677ff" stroke-width="7"/>
   <path class="stroke" d="M16 44H112" stroke="#1677ff" stroke-width="7" stroke-linecap="round"/>
   <circle class="fill" cx="33" cy="31" r="3.6" fill="#1677ff"/>
   <circle class="fill" cx="46" cy="31" r="3.6" fill="#1677ff"/>

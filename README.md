@@ -5,11 +5,7 @@
 </div>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-readme-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="docs/assets/logo-readme-light.svg">
-    <img src="docs/assets/logo-readme.svg" alt="Arthas Workbench 插件图标预览" width="128" height="128">
-  </picture>
+  <img src="docs/assets/logo-readme.svg" alt="Arthas Workbench 插件图标预览" width="128" height="128" />
 </div>
 
 <div align="center">
