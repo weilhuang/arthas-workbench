@@ -5,7 +5,11 @@
 </div>
 
 <div align="center">
-  <img src="src/main/resources/icons/original/arthasWorkbenchDiagnosticWave_128x128.png" alt="Arthas Workbench 插件图标预览" width="128" height="128" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/logo-readme-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/assets/logo-readme-light.svg">
+    <img src="docs/assets/logo-readme.svg" alt="Arthas Workbench 插件图标预览" width="128" height="128">
+  </picture>
 </div>
 
 <div align="center">
