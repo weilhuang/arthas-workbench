@@ -2,22 +2,22 @@
   <title>Arthas Workbench</title>
   <!--
     README logo derived from src/main/resources/icons/original/arthasWorkbenchDiagnosticWave_128x128.svg.
-    Light: black strokes like the original motif. Dark: light gray matching plugin dark icons.
-    Presentation attributes stay #000 if style is stripped. No brand blue.
+    Light: near-black #1f2328. Dark: near-white #e6edf3.
+    Presentation attributes stay #1f2328 if style is stripped. No brand blue.
   -->
   <style>
     :root { color-scheme: light dark; }
-    .stroke { stroke: #000; }
-    .fill { fill: #000; }
+    .stroke { stroke: #1f2328; }
+    .fill { fill: #1f2328; }
     @media (prefers-color-scheme: dark) {
-      .stroke { stroke: #CED0D6; }
-      .fill { fill: #CED0D6; }
+      .stroke { stroke: #e6edf3; }
+      .fill { fill: #e6edf3; }
     }
   </style>
-  <rect class="stroke" x="16" y="18" width="96" height="92" rx="15" stroke="#000" stroke-width="7"/>
-  <path class="stroke" d="M16 44H112" stroke="#000" stroke-width="7" stroke-linecap="round"/>
-  <circle class="fill" cx="33" cy="31" r="3.6" fill="#000"/>
-  <circle class="fill" cx="46" cy="31" r="3.6" fill="#000"/>
-  <circle class="fill" cx="59" cy="31" r="3.6" fill="#000"/>
-  <path class="stroke" d="M28 78H41L51 70L59 89L71 58L82 91L92 78H101" stroke="#000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect class="stroke" x="16" y="18" width="96" height="92" rx="15" stroke="#1f2328" stroke-width="7"/>
+  <path class="stroke" d="M16 44H112" stroke="#1f2328" stroke-width="7" stroke-linecap="round"/>
+  <circle class="fill" cx="33" cy="31" r="3.6" fill="#1f2328"/>
+  <circle class="fill" cx="46" cy="31" r="3.6" fill="#1f2328"/>
+  <circle class="fill" cx="59" cy="31" r="3.6" fill="#1f2328"/>
+  <path class="stroke" d="M28 78H41L51 70L59 89L71 58L82 91L92 78H101" stroke="#1f2328" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
